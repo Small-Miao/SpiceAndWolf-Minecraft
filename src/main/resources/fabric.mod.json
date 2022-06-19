@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "spice_and_wolf",
+  "version": "${version}",
+  "name": "Spiceandwolf",
+  "description": "",
+  "authors": [
+    "Miao_Luo233"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/spice_and_wolf/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.miaoluo.spiceandwolf.Spiceandwolf"
+    ]
+  },
+  "mixins": [
+    "spiceandwolf.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}

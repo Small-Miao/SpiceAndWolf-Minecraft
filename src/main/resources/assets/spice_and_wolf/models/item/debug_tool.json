@@ -1,0 +1,6 @@
+{
+  "parent": "builtin/generated",
+  "textures": {
+    "layer0": "spice_and_wolf:item/debug_tool"
+  }
+}
