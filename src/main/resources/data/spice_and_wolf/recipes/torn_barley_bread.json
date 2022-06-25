@@ -1,0 +1,7 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {"item":"spice_and_wolf:barley_bread"}
+  ],
+  "result": {"item":"spice_and_wolf:torn_barley_bread","count": 4}
+}
