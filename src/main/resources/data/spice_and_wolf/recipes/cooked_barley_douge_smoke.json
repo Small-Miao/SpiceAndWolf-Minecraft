@@ -1,0 +1,7 @@
+{
+  "type": "smoking",
+  "ingredient": {"item":"spice_and_wolf:barley_douge"},
+  "result":"spice_and_wolf:barley_bread",
+  "cookingtime": 1200,
+  "experience": 3
+}
