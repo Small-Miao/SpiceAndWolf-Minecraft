@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "spice_and_wolf:item/whole_wheat_douge"
+  }
+}

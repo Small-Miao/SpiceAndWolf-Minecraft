@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "spice_and_wolf:item/barley_bread"
-  }
-}

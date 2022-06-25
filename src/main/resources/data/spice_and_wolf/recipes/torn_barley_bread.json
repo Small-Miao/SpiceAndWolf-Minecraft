@@ -1,7 +1,7 @@
 {
   "type": "crafting_shapeless",
   "ingredients": [
-    {"item":"spice_and_wolf:barley_bread"}
+    {"item":"spice_and_wolf:cooked_whole_wheat_douge"}
   ],
-  "result": {"item":"spice_and_wolf:torn_barley_bread","count": 4}
+  "result": {"item":"spice_and_wolf:torn_whole_wheat_bread","count": 4}
 }

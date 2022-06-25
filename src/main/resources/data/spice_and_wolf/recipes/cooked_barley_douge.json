@@ -1,7 +1,7 @@
 {
   "type": "smelting",
-  "ingredient": {"item":"spice_and_wolf:barley_douge"},
-  "result":"spice_and_wolf:cooked_barley_douge",
+  "ingredient": {"item":"spice_and_wolf:whole_wheat_douge"},
+  "result":"spice_and_wolf:cooked_whole_wheat_douge",
   "cookingtime": 400,
   "experience": 2
 }
