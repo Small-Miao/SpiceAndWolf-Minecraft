@@ -27,6 +27,7 @@ public class Spiceandwolf implements ModInitializer {
     public static final TornWholeWheatBread tornWholeWheatBread = new TornWholeWheatBread(new FabricItemSettings().food(new FoodComponent.Builder().saturationModifier(0.4f).hunger(5).build()));
     public static final WholeWheatDough wholeWheatDouge = new WholeWheatDough(new FabricItemSettings().food(new FoodComponent.Builder().saturationModifier(0f).hunger(1).build()));
     public static final CookedWholeWheatDouge coockedWholeWheatDouge = new CookedWholeWheatDouge(new FabricItemSettings().food(new FoodComponent.Builder().saturationModifier(0).hunger(6).build()));
+    public static final OatFlour otaFlour = new OatFlour(new FabricItemSettings());
     //Item Group
     public static final ItemGroup MAIN_GROUP = FabricItemGroupBuilder.create(
                 new Identifier("spice_and_wolf", "main_item")).icon(() -> new ItemStack((DebugTool))).appendItems(stacks -> {
@@ -34,6 +35,7 @@ public class Spiceandwolf implements ModInitializer {
         }).build();
     public static final ItemGroup FOOD_GROUP = FabricItemGroupBuilder.create(
                 new Identifier("spice_and_wolf", "food_item")).icon(() -> new ItemStack((wholeWheatBread))).appendItems(stacks -> {
+                    stacks.add(new ItemStack(Spiceandwolf.otaFlour));
                     stacks.add(new ItemStack(Spiceandwolf.wholeWheatDouge));
                     stacks.add(new ItemStack(Spiceandwolf.coockedWholeWheatDouge));
                     stacks.add(new ItemStack(Spiceandwolf.wholeWheatBread));
@@ -47,6 +49,7 @@ public class Spiceandwolf implements ModInitializer {
         Registry.register(Registry.ITEM,new Identifier("spice_and_wolf","torn_whole_wheat_bread"), tornWholeWheatBread);
         Registry.register(Registry.ITEM,new Identifier("spice_and_wolf","whole_wheat_douge"),wholeWheatDouge);
         Registry.register(Registry.ITEM,new Identifier("spice_and_wolf","cooked_whole_wheat_douge"), coockedWholeWheatDouge);
+        Registry.register(Registry.ITEM,new Identifier("spice_and_wolf","oat_flour"),otaFlour);
         Registry.register(Registry.STATUS_EFFECT,new Identifier("spice_and_wolf","full_stomach"),fullStomach);
     }
 }
